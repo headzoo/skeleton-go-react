@@ -4,5 +4,5 @@ bootstrap/*
 node_modules
 static/css
 static/js
-website
+skeleton-go-react
 gin-bin

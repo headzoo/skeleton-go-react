@@ -1,0 +1,10 @@
+server:
+  address: 127.0.0.1:8099
+  
+database:
+  driver: mysql
+  dsn: username:password@/skeleton?charset=utf8&parseTime=True
+  
+redis:
+  address: localhost:6379
+  database: 0
