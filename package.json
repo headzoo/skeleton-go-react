@@ -1,0 +1,45 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "paths": {
+    "bootstrap_less": "./bootstrap/less/bootstrap.less",
+    "bootstrap_js": "./bootstrap/dist/js/bootstrap.min.js",
+    "less": "./less/**/*.less",
+    "scripts": "./scripts/**/*.js"
+  },
+  "dest": {
+    "less": "bundle.css",
+    "scripts": "bundle.js",
+    "css": "./static/css",
+    "js": "./static/js"
+  },
+  "devDependencies": {
+    "gulp-less": "2.0.1",
+    "gulp-concat": "2.4.3",
+    "gulp-uglify": "1.0.2",
+    "gulp-minify-css": "0.3.11",
+    "browserify": "^11.0.1",
+    "vinyl-source-stream": "1.0.0",
+    "vinyl-buffer": "1.0.0",
+    "reactify": "^1.1.1",
+    "del": "1.1.1",
+    "glob": "^5.0.14",
+    "gulp-environments": "^0.1.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "history": "^1.17.0",
+    "react": "^0.14.7",
+    "react-addons-css-transition-group": "^0.14.7",
+    "react-addons-linked-state-mixin": "^0.14.7",
+    "react-dnd": "^2.0.2",
+    "react-dnd-html5-backend": "^2.0.2",
+    "react-dom": "^0.14.7",
+    "react-router": "^1.0.3",
+    "react-router-active-component": "^3.0.0",
+    "reflux": "^0.3.0",
+    "reflux-core": "^0.3.0",
+    "sprintf": "^0.1.5"
+  }
+}

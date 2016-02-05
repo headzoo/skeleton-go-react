@@ -1,0 +1,8 @@
+.idea
+bootstrap/*
+!bootstrap/.gitkeep
+node_modules
+static/css
+static/js
+website
+gin-bin
